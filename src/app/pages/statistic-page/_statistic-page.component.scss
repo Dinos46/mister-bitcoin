@@ -1,0 +1,15 @@
+@import "../../../assets/styles/setup/functions";
+@import "../../../assets/styles/setup/variables";
+
+.statistic-page {
+    height: 60vh;
+    margin-block: 40px;
+    padding: rem(10px);
+    color: $clr5;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-size: rem(38px);
+        margin-block: rem(20px);
+    }
+}

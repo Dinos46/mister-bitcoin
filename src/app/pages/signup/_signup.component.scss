@@ -1,0 +1,26 @@
+@import "../../../assets/styles/setup/functions";
+@import "../../../assets/styles/setup/variables";
+
+.signup-page {
+    flex-direction: column;
+    height: 70vh;
+    color: $clr5;
+    align-items: center;
+    h2{
+        margin-block: rem(20px);
+        font-size: rem(30px);
+    }
+    form {
+        flex-direction: column;
+        input{
+            outline: none;
+            padding: rem(10px);
+            border-radius: rem(10px);
+        }
+        label{
+            margin-block-end: rem(7px);
+            cursor: pointer;
+            color: $clr2;
+        }
+    }
+}

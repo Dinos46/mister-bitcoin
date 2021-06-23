@@ -1,0 +1,10 @@
+<section class="home-page flex">
+    <div class="card flex">
+        <h3>Hello {{user.name}}</h3>
+        <img src="../../../assets/img/coins.png" alt="coins">
+        <p>Your coins: {{user.coins}} ฿</p>
+        <img src="../../../assets/img/bitcoin.png" alt="coins">
+        <p>Bitcoin market price: {{rate}}</p>
+        <a [routerLink]="['/contact','add']">add contact</a>
+    </div>
+</section>

@@ -1,0 +1,27 @@
+@import "../../../assets/styles/setup/variables";
+@import "../../../assets/styles/setup/functions";
+
+.add-edit-contact {
+    color: $clr5;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: rem(20px);
+    form {
+        flex-direction: column;
+        .img-container{
+            height: 100px;
+            width: 200px;
+            margin-block: rem(16px);
+        }
+        input{
+            margin-block-end: rem(10px);
+            padding: rem(5px) rem(14px);
+            border-radius: rem(10px);
+            outline: none;
+        }
+        label{
+            color: $clr2;
+            cursor: pointer;
+        }
+    }
+}

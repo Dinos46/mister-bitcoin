@@ -1,0 +1,63 @@
+@import "../../../assets/styles/setup/functions";
+@import "../../../assets/styles/setup/variables";
+
+.contact-details {
+    margin-block: rem(50px);
+    height: 60vh;
+    align-items: center;
+    color: $clr5;
+    flex-direction: column;
+    .contact-card {
+        justify-content: center;
+        .contact-img {
+            img {
+                width: 200px;
+                height: 300px;
+            }
+        }
+        .content-container {
+            flex-direction: column;
+            margin-inline-start: rem(18px);
+            > *:not(:last-child) {
+                margin-block-end: rem(14px);
+            }
+            h2 {
+                font-size: rem(24px);
+            }
+            p {
+                font-size: rem(18px);
+                flex: 1;
+            }
+        }
+        .btn-container {
+            align-items: center;
+            *:not(:first-child) {
+                margin-inline-start: rem(10px);
+            }
+            button {
+                color: $clr1;
+                background-color: $clr2;
+                width: 30%;
+                transition: ease-in-out 0.2s;
+                &:hover {
+                    background-color: darken($clr2, $amount: 5%);
+                }
+            }
+            a {
+                color: $clr1;
+                background-color: $clr2;
+                font-family: inherit;
+                font-size: inherit;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                min-height: 48px;
+                min-width: 48px;
+                border-radius: rem(12px);
+                display: inline-block;
+                padding: 14px 17px;
+                
+            }
+        }
+    }
+}

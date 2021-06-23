@@ -1,0 +1,9 @@
+@import "../assets//styles/setup/variables";
+@import "../assets//styles/setup/functions";
+
+.main-app {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-block: rem(16px);
+}

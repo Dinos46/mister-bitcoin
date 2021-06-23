@@ -1,0 +1,17 @@
+@import "../../../assets/styles/setup/functions";
+@import "../../../assets/styles/setup/variables";
+
+.contact-filter {
+    color: $clr5; 
+    margin-block: rem(12px);
+    label{
+        font-size: rem(22px);
+    }
+    input[name="filter"]{
+        padding: rem(12px);
+        margin-inline-start: rem(10px);
+        border-radius: rem(10px);
+        outline: none;
+        border: 1px solid ;
+    }
+}

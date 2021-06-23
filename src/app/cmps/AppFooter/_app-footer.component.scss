@@ -1,0 +1,10 @@
+@import '../../../assets/styles/setup/functions';
+@import '../../../assets/styles/setup/variables';
+footer {
+    padding: rem(20px);
+    margin-block-start: 78px;
+    align-items: center;
+    justify-content: center;
+    background-color: $clr5;
+
+}

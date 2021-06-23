@@ -1,0 +1,13 @@
+<section class="contact-filter">
+    <label for="filter">
+        Filter:
+        <input 
+        placeholder="search by name..."
+        type="text" 
+        id="filter"
+        name="filter"
+        [(ngModel)]="filterByCopy.term" 
+        (ngModelChange)="setFilter.emit(filterByCopy)"
+        >
+    </label>
+</section>

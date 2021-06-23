@@ -1,0 +1,6 @@
+<section class="main-app flex">
+    <div class="filter-container flex">
+        <contact-filter [filterBy]="filterBy" (setFilter)="onSetFilter($event)"></contact-filter>
+    </div>
+    <app-list [contacts]="contacts$|async"></app-list>
+</section>

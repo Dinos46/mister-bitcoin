@@ -1,0 +1,25 @@
+@import "../../../assets/styles/setup/functions";
+@import "../../../assets/styles/setup/variables";
+
+header {
+    background-color: $clr5;
+    padding: rem(20px);
+    align-items: center;
+    justify-content: center;
+    .nav-bar {
+        align-items: center;
+        justify-content: space-between;
+        width: 85%;
+        a {
+            color: $clr3;
+            &.active{
+                color: lighten($clr3, $amount: 20%);
+            }
+        }
+        ul {
+            > *:not(:last-child) {
+                margin-inline-end: rem(10px);
+            }
+        }
+    }
+}

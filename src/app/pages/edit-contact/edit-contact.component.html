@@ -1,0 +1,20 @@
+<section class="add-edit-contact flex">
+    <form class="contact-edit flex" (ngSubmit)="onSaveContact()">
+        <div class="img-container">
+            <img src="../../../assets/img/contact.png" alt="user">
+        </div>
+        <label for="name">
+            name
+        </label>
+        <input type="text" id="name" [(ngModel)]="contact.name" name="name">
+        <label for="email">
+            email
+        </label>
+        <input type="text" id="email" [(ngModel)]="contact.email" name="email">
+        <label for="phone">
+            phone
+        </label>
+        <input type="text" id="phone" [(ngModel)]="contact.phone" name="phone">
+        <button>Save</button>
+    </form>
+</section>

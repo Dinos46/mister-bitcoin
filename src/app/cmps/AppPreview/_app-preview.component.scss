@@ -1,0 +1,22 @@
+@import "../../../assets/styles/setup/functions";
+@import "../../../assets/styles/setup/variables";
+
+.contact-preview {
+    padding: rem(10px);
+    align-items: center;
+    background-color: $clr4;
+    border-radius: rem(7px);
+    >* {
+        margin-inline-end: rem(100px);
+    }
+    img {
+        width: 10%;
+        margin-inline-start: rem(100px);
+    }
+    .text-container {
+        p {
+            text-align: start;
+            font-size: rem(24px);
+        }
+    }
+}

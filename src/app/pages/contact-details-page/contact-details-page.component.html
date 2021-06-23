@@ -1,0 +1,18 @@
+<section class="contact-details flex">
+    <div class="contact-card flex">
+        <div class="contact-img flex">
+            <img src="https://randomuser.me/api/portraits/med/men/{{random}}.jpg" alt="user-img">
+        </div>
+        <div class="content-container flex">
+            <h2>{{contact.name}}</h2>
+            <p>Email: {{contact.email}}</p>
+            <p>Phone: {{contact.phone}}</p>
+            <div class="btn-container flex">
+                <button (click)="onRemove()">delete</button>
+                <button>next</button>
+                <a [routerLink]="['/contact',contact._id,'edit']">edit</a>
+                <button (click)="onGoBack()">Back</button>
+            </div>
+        </div>
+    </div>
+</section>
