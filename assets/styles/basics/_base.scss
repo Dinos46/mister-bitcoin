@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: $clr1;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: inherit;
+    min-height: rem(48px);
+    min-width: rem(48px);
+    border-radius: rem(15px);
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: $clr1;
+    &:visited {
+        color: $clr1;
+    }
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}

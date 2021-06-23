@@ -1,0 +1,24 @@
+//SETUP
+@import "./setup/variables";
+@import "./setup/mixins";
+@import "./setup/functions";
+
+//BASICS
+@import "./basics/base";
+@import "./basics/helpers";
+@import "./basics/layout";
+
+//COMPONENTS
+@import "../../app/cmps/AppHeader/header.component";
+@import "../../app/cmps/AppFooter/app-footer.component";
+@import "../../app/cmps/AppList/app-list.component";
+@import "../../app/cmps/AppPreview/app-preview.component";
+@import "../../app/cmps/contact-filter/contact-filter.component";
+
+//VIEWS
+@import "../../app/pages/mister-bitcoin-app/mister-bitcoin-app.component";
+@import "../../app/pages/home-page/home-page.component";
+@import "../../app/pages/contact-details-page/contact-details-page.component";
+@import "../../app/pages/statistic-page/statistic-page.component";
+@import "../../app/pages/edit-contact/edit-contact.component";
+@import "../../app/app.component";
